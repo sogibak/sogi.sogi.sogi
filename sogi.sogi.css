@@ -1,0 +1,86 @@
+body {
+     margin: 0;
+  height: 100vh;
+  background: #F2f0f0;
+  font-family: 'Gothic A1', sans-serif;
+    /* background-image: url("../images/winnie_illust.png");.. 더블닷이 나간다는 거임 폴더 얘기 ㅇㅇ */
+    display: flex; /* flex를 넣으면 flex direction 넣어줘야함 */
+  flex-direction: column; /* row와 column, 컬럼의 친구는 align-item */
+  padding-top: 10px;
+  padding-left: 8vw;
+  padding-right: 20vw;
+  padding-bottom: 10vw;
+  
+}
+
+.box {
+ font-size:11pt;
+ line-height:1.5;
+  text-indent: 2em;
+}
+
+.title{
+ font-size: 15Pt;
+ font-weight:200;
+     transform :rotate(-6deg);
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+}
+
+.row{
+    display: grid;
+    grid-template-columns : 1fr 1fr;
+}
+
+
+.text{
+ font-size: 13pt 
+}
+.note{
+    font-size: 11.4pt;
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.5);
+    transform: rotate(-5deg);
+        text-decoration-line: overline;
+    text-decoration-style: dotted;
+}
+
+a {  text-decoration-line: overline;
+    text-decoration-style:solid;
+}
+
+
+p {
+    font-size: 13pt;
+    line-height :1.5;
+    
+}
+
+
+.fixed-note {
+    position: fixed;
+  
+}
+
+.info {
+  text-align : right;
+  font-size : 10pt;
+  
+}
+
+.img {
+    width: 8vw;
+    vertical-align: top;
+    align-items:right;
+   
+}
+
+
+
+
+/** .big {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80pt;
+     line-height: 0;
+} **/
